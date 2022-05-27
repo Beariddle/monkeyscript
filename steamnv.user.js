@@ -20,12 +20,13 @@ const agegate_btn    = document.getElementById('age_gate_btn_continue');
 const partnerhub_btn = document.getElementsByClassName('partnereventshared_Button_1ABCO')[0];
 
 function agecheck(months, rMonth) {
-  // Automatically generate a date of birth. Replace values with a static value when a specific date of birth is desired.
+  // Automatically generate a date of birth.
   // Generate the months.
   months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   rMonth = Math.floor(Math.random() * months.length);
 
   // Insert date values.
+  // Replace values with a static value when a specific date of birth is desired.
   document.getElementById('ageDay').value = Math.floor((Math.random() * 28) + 1);
   document.getElementById('ageMonth').value = months[rMonth];
   document.getElementById('ageYear').value = Math.floor(Math.random() * (2000 - 1960)) + 1960;
