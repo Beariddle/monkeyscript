@@ -2,7 +2,7 @@
 // @name             STEAMNV
 // @namespace        Steam NSFW Verification
 // @description      Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
-// @version          1.35
+// @version          1.36
 // @author           Beariddle
 // @license          MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
 // @supportURL       https://github.com/Beariddle/monkeyscript/issues
