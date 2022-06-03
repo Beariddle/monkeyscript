@@ -2,14 +2,14 @@
 // @name             STEAMNV
 // @namespace        https://github.com/Beariddle/monkeyscript/
 // @description      Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
-// @version          1.40
+// @version          1.41
 // @author           Beariddle
 // @license          MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
 // @supportURL       https://github.com/Beariddle/monkeyscript/issues
 // @downloadURL      https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
 // @updateURL        https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
 // @icon             https://store.steampowered.com/favicon.ico
-// @match            *://*.steampowered.com/agecheck/*
+// @match            *://store.steampowered.com/agecheck/*
 // @match            *://steamcommunity.com/*
 // ==/UserScript==
 
