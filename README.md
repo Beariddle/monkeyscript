@@ -3,7 +3,7 @@ Monkey patched userscripts to be used with addons/extensions such as [GreaseMonk
 
 # Userscripts
 #### [SteamNV](https://github.com/Beariddle/monkeyscript/blob/main/steamnv.user.js):
-Steam NSFW Verification. A userscript to automate the verification of the Steam age verification, and/or comply with the NSFW warning subpage, for the Steam store and Community Hub. 
+Steam NSFW Verification. A userscript to automate the verification of the Steam age verification, and/or comply with the NSFW warning subpage, for the Steam store and Community Hub. **_Useful for when you automatically clear cookies upon browser exit._**
 
 _These warnings are given when a game, or software, contains tags and content that either are not appropriate for all ages to view or inappropriate to be viewed at a workplace. Such reasons could be due to e.g. frequent violence, gore, excessive use foul language or (general) mature content._
 
