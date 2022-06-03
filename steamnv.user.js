@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name             STEAMNV
 // @namespace        Steam NSFW Verification
-// @description      Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
-// @version          1.36
+// @description      Automate the verification of the Steam age verification, and/or comply with the NSFW warning webpage, for the Steam store and Community Hub.
+// @version          1.40
 // @author           Beariddle
 // @license          MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
 // @supportURL       https://github.com/Beariddle/monkeyscript/issues
 // @downloadURL      https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
 // @updateURL        https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
-// @icon             https://store.steampowered.com/favicon.ico
-// @match            https://store.steampowered.com/agecheck/*
-// @match            https://steamcommunity.com/*
+// @match            *://*.steampowered.com/agecheck/*
+// @match            *://steamcommunity.com/*
+// @run-at           document-start
 // ==/UserScript==
 const pathname = location.pathname;
 const hostname = location.hostname;
