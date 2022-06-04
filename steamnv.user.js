@@ -21,8 +21,8 @@
  * Month format: must be written in full with a capital letter.
  * E.g. January, February, March etc... */
 const Day   = '';
-const Month = '';
-const Year  = '';
+const Month	= '';
+const Year	= '';
 
 // Define elements.
 const ageDay		= document.getElementById('ageDay');
