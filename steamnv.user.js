@@ -3,7 +3,7 @@
 // @namespace     https://github.com/Beariddle/monkeyscript/
 // @author        Beariddle
 // @version       1.42
-// @description		Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
+// @description   Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
 // @license       MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
 // @downloadURL   https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
 // @updateURL     https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
@@ -21,16 +21,16 @@
  * Month format: must be written in full with a capital letter.
  * E.g. January, February, March etc... */
 const Day   = '';
-const Month	= '';
-const Year	= '';
+const Month = '';
+const Year  = '';
 
 // Define elements.
-const ageDay		= document.getElementById('ageDay');
-const ageMonth	= document.getElementById('ageMonth');
-const ageYear		= document.getElementById('ageYear');
-const agecheck_btn   = document.getElementsByClassName('btnv6_blue_hoverfade btn_medium')[0];
-const agegate_btn    = document.getElementById('age_gate_btn_continue');
-const partnerhub_btn = document.getElementsByClassName('partnereventshared_Button_1ABCO')[0];
+const ageDay    = document.getElementById('ageDay');
+const ageMonth  = document.getElementById('ageMonth');
+const ageYear   = document.getElementById('ageYear');
+const agecheck_btn    = document.getElementsByClassName('btnv6_blue_hoverfade btn_medium')[0];
+const agegate_btn     = document.getElementById('age_gate_btn_continue');
+const partnerhub_btn  = document.getElementsByClassName('partnereventshared_Button_1ABCO')[0];
 
 // Automatically generate a date of birth.
 function agecheck(months, rMonth) {
@@ -39,9 +39,9 @@ function agecheck(months, rMonth) {
   rMonth = Math.floor(Math.random() * months.length);
 
   // Insert date values.
-  ageDay.value		= Math.floor((Math.random() * 28) + 1);
-  ageMonth.value	= months[rMonth];
-  ageYear.value		= Math.floor(Math.random() * (2000 - 1960)) + 1960;
+  ageDay.value    = Math.floor((Math.random() * 28) + 1);
+  ageMonth.value  = months[rMonth];
+  ageYear.value   = Math.floor(Math.random() * (2000 - 1960)) + 1960;
 }
 
 // Insert values in the form and automatically click the 'view page' button on the corresponding NSFW warning subpages.
@@ -49,9 +49,9 @@ if(location.hostname === 'store.steampowered.com' && location.pathname.match('/a
   if(Day <= null && Month <= null && Year <= null){
     agecheck();
   } else {
-    ageDay.value		= Day;
-    ageMonth.value	= Month;
-    ageYear.value		= Year;
+    ageDay.value    = Day;
+    ageMonth.value  = Month;
+    ageYear.value   = Year;
   }
   agecheck_btn.click();
 } else if (location.hostname === 'steamcommunity.com') {
