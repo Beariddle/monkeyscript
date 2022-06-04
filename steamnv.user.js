@@ -1,16 +1,18 @@
 // ==UserScript==
-// @name             STEAMNV
-// @namespace        https://github.com/Beariddle/monkeyscript/
-// @description      Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
-// @version          1.41
-// @author           Beariddle
-// @license          MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
-// @supportURL       https://github.com/Beariddle/monkeyscript/issues
-// @downloadURL      https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
-// @updateURL        https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
-// @icon             https://store.steampowered.com/favicon.ico
-// @match            *://store.steampowered.com/agecheck/*
-// @match            *://steamcommunity.com/*
+// @name          STEAMNV
+// @namespace     https://github.com/Beariddle/monkeyscript/
+// @author        Beariddle
+// @version       1.42
+// @description		Automatically verifies the Steam age verification, and/or complies with the NSFW warning webpage, for the Steam store and Community Hub.
+// @license       MIT; https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md
+// @downloadURL   https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
+// @updateURL     https://raw.githubusercontent.com/Beariddle/monkeyscript/main/steamnv.user.js
+// @supportURL    https://github.com/Beariddle/monkeyscript/issues
+// @grant         none
+// @icon          https://store.steampowered.com/favicon.ico
+// @match         *://store.steampowered.com/agecheck/*
+// @match         *://steamcommunity.com/*
+// @run-at        document-idle
 // ==/UserScript==
 
 /* Insert desired date of birth in-between the quotes. Leave the values in-between quotes empty, otherwise.
