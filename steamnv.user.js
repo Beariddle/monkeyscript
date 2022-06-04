@@ -20,7 +20,7 @@
  * [Correct] 1, 2, 3, 4, ... || [incorrect] 01, 02, 03, ...
  * Month format: must be written in full with a capital letter.
  * E.g. January, February, March etc... */
-const Day		= '';
+const Day   = '';
 const Month	= '';
 const Year	= '';
 
