@@ -48,7 +48,7 @@ function agecheck(months, rMonth) {
 if(location.hostname === 'store.steampowered.com' && location.pathname.match('/agecheck/')) {
   if(Day <= null && Month <= null && Year <= null){
     agecheck();
-  } else if (Day !== null && Month !== null && Year !== null){
+  } else {
     ageDay.value		= Day;
     ageMonth.value	= Month;
     ageYear.value		= Year;
