@@ -8,4 +8,4 @@ Steam NSFW Verification. A userscript to automate the verification of the Steam 
 _These warnings are given when a game, or software, contains tags and content that either are not appropriate for all ages to view or inappropriate to be viewed at a workplace. Such reasons could be due to e.g. frequent violence, gore, excessive use foul language or (general) mature content._
 
 # Disclaimer
-All scripts are provided as is under the MIT [LICENCE](https://github.com/Beariddle/monkeyscript/blob/main/LICENSE.md).
+All scripts are provided as is under the MIT [LICENCE](https://github.com/Beariddle/monkeyscript/blob/main/LICENCE.md).
